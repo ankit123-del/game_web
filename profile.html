@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile - CYBORG</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+      <nav class="navbar">
+    <div class="left-section">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <span class="brand">CYBORG</span>
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass fa-fade"></i>
+        <input type="text" placeholder="Type Something" />
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="gaming store.html" onclick="goHome()">Home</a>
+      <a href="browse.html" onclick="goBrowse()">Browse</a>
+      <a href="details.html" onclick="goDetails()">Details</a>
+      <a href="streams.html" onclick="goStreams()">Streams</a>
+    <div class="profile" onclick="goProfile()">
+  <span>Profile</span>
+  <img src="profile.jpg" alt="Profile Image" />
+</div>
+    </div>
+  </nav>
+
+
+<section class="profile-container">
+  <div class="profile-card">
+    <!-- Left: Profile Image -->
+    <div class="profile-img">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/profile.jpg" alt="Profile Picture">
+    </div>
+
+    <!-- Middle: Info -->
+    <div class="profile-info">
+      <span class="status offline">Offline</span>
+      <h2>Alan Smithee</h2>
+      <p>You Haven’t Gone Live yet. Go Live By Touching The Button Below.</p>
+      <button class="start-btn">Start Live Stream</button>
+    </div>
+
+    <!-- Right: Stats -->
+    <div class="profile-stats">
+      <p>Games Downloaded <span>3</span></p>
+      <hr>
+      <p>Friends Online <span>16</span></p>
+      <hr>
+      <p>Live Streams <span>None</span></p>
+      <hr>
+      <p>Clips <span>29</span></p>
+    </div>
+  </div>
+</section>
+<section class="clips-section">
+  <h2>Your Most Popular <span>Clips</span></h2>
+  <div class="clips-container">
+    <div class="clip-card">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/clip-01.jpg" alt="First Clip">
+      <p class="clip-title">First Clip</p>
+      <p class="clip-views">👁 250</p>
+    </div>
+    <div class="clip-card">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/clip-02.jpg" alt="Second Clip">
+      <p class="clip-title">Second Clip</p>
+      <p class="clip-views">👁 183</p>
+    </div>
+    <div class="clip-card">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/clip-03.jpg" alt="Third Clip">
+      <p class="clip-title">Third Clip</p>
+      <p class="clip-views">👁 141</p>
+    </div>
+    <div class="clip-card">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/clip-04.jpg" alt="Fourth Clip">
+      <p class="clip-title">Fourth Clip</p>
+      <p class="clip-views">👁 91</p>
+    </div>
+  </div>
+  <button class="load-more">Load More Clips</button>
+</section>
+  <script>
+  function goProfile() {
+    window.location.href = "profile.html";
+  }
+</script>
+</body>
+</html>

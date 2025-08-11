@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fortnite Details</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="left-section">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <span class="brand">CYBORG</span>
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass fa-fade"></i>
+        <input type="text" placeholder="Type Something" />
+      </div>
+    </div>
+
+    <div class="nav-links">
+      <a href="gaming store.html" onclick="goHome()">Home</a>
+      <a href="browse.html" onclick="goBrowse()">Browse</a>
+      <a href="details.html" onclick="goDetails()">Details</a>
+      <a href="streams.html" onclick="goStreams()">Streams</a>
+      <div class="profile" onclick="goProfile()">
+  <span>Profile</span>
+  <img src="profile.jpg" alt="Profile Image" />
+</div>
+    </div>
+  </nav>
+   <div class="container">
+    <!-- Left Image -->
+    <div class="image-box">
+      <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/feature-left.jpg" alt="Fortnite Poster">
+    </div>
+
+
+    <div class="video-box" onclick="playVideo()">
+      <img src="https://i.ytimg.com/vi/r1b03uKWk_M/maxresdefault.jpg" alt="Fortnite Video Thumbnail">
+      <div class="play-button"></div>
+    </div>
+    </div>
+
+    <div class="game-card">
+  <div class="game-header">
+    <div class="game-info">
+      <h2>Fortnite</h2>
+      <p>Sandbox</p>
+    </div>
+    <div class="stats">
+      <div class="stat-box">
+        <i class="fas fa-star"></i>
+        <span>4.8</span>
+        <i class="fas fa-download" style="margin-left: 15px; color: #e91e63;"></i>
+        <span>2.3M</span>
+      </div>
+      <div class="stat-box">
+        <i class="fas fa-star"></i>
+        <span>4.8</span>
+        <i class="fas fa-download" style="color: #e91e63;"></i>
+        <span>2.3M</span>
+        <i class="fas fa-database" style="color: #f06292;"></i>
+        <span>36GB</span>
+        <i class="fas fa-gamepad" style="color: #ff4081;"></i>
+        <span>Action</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="screenshots">
+    <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/details-01.jpg" alt="Screenshot 1">
+    <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/details-02.jpg" alt="Screenshot 2">
+    <img src="https://templatemo.com/templates/templatemo_579_cyborg_gaming/assets/images/details-03.jpg" alt="Screenshot 3">
+  </div>
+
+  <div class="description">
+    Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout. You can make a
+    <b>small contribution via PayPal</b> to <a href="mailto:info@templatemo.com">info [at] templatemo.com</a> and thank you for supporting. 
+    If you want to get the PSD source files, please contact us. Lorem ipsum dolor sit consectetur es dipic dipiscingei elit, sed doers eiusmod lisum hored tempor.
+  </div>
+  <button style="background-color: black; height: 50px; width: 800px; border-radius: 20px ; border:1px solid #e91e63; color: #e91e63;" class="Download">Download Fortnite Now!</button>
+</div>
+
+
+ 
+  <script>
+    function playVideo() {
+      window.open("https://www.youtube.com/watch?v=r1b03uKWk_M", "_blank");
+
+    }
+      
+  function goProfile() {
+    window.location.href = "profile.html";
+  }
+
+  </script>
+
+</body>
+</html>
